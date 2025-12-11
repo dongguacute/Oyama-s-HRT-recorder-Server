@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-app",
+  "name": "oyama-s-hrt-recorder-server",
   "compatibility_date": "2023-01-01",
   "main": "./src/index.tsx",
   "durable_objects": {
