@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-app",
+  "compatibility_date": "2023-01-01",
+  "main": "./src/index.tsx",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "HRT_DATA",
+        "class_name": "HRTData"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_classes": [
+        "HRTData"
+      ]
+    }
+  ]
+}
